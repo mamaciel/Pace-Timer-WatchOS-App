@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BB8A0E828068CCD00EC09D2 /* Pace Timer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5BB8A0E728068CCD00EC09D2 /* Pace Timer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5BB8A0ED28068CD100EC09D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB8A0EC28068CD100EC09D2 /* Assets.xcassets */; };
+		5BB8A0F328068CD100EC09D2 /* Pace Timer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5BB8A0F228068CD100EC09D2 /* Pace Timer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5BB8A0F828068CD100EC09D2 /* Pace_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8A0F728068CD100EC09D2 /* Pace_TimerApp.swift */; };
+		5BB8A0FA28068CD100EC09D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8A0F928068CD100EC09D2 /* ContentView.swift */; };
+		5BB8A0FC28068CD100EC09D2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8A0FB28068CD100EC09D2 /* NotificationController.swift */; };
+		5BB8A0FE28068CD100EC09D2 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8A0FD28068CD100EC09D2 /* NotificationView.swift */; };
+		5BB8A10028068CD100EC09D2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8A0FF28068CD100EC09D2 /* ComplicationController.swift */; };
+		5BB8A10228068CD400EC09D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB8A10128068CD400EC09D2 /* Assets.xcassets */; };
+		5BB8A10528068CD400EC09D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB8A10428068CD400EC09D2 /* Preview Assets.xcassets */; };
+		5BB8A11128068CD400EC09D2 /* Pace_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8A11028068CD400EC09D2 /* Pace_TimerTests.swift */; };
+		5BB8A11B28068CD400EC09D2 /* Pace_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8A11A28068CD400EC09D2 /* Pace_TimerUITests.swift */; };
+		5BB8A11D28068CD400EC09D2 /* Pace_TimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8A11C28068CD400EC09D2 /* Pace_TimerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BB8A0E928068CCD00EC09D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB8A0DD28068CCD00EC09D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB8A0E628068CCD00EC09D2;
+			remoteInfo = "Pace Timer WatchKit App";
+		};
+		5BB8A0F428068CD100EC09D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB8A0DD28068CCD00EC09D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB8A0F128068CD100EC09D2;
+			remoteInfo = "Pace Timer WatchKit Extension";
+		};
+		5BB8A10D28068CD400EC09D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB8A0DD28068CCD00EC09D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB8A0F128068CD100EC09D2;
+			remoteInfo = "Pace Timer WatchKit Extension";
+		};
+		5BB8A11728068CD400EC09D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB8A0DD28068CCD00EC09D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB8A0E628068CCD00EC09D2;
+			remoteInfo = "Pace Timer WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BB8A12328068CD400EC09D2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5BB8A0F328068CD100EC09D2 /* Pace Timer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB8A12728068CD400EC09D2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5BB8A0E828068CCD00EC09D2 /* Pace Timer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5BB8A0E328068CCD00EC09D2 /* Pace Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pace Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB8A0E728068CCD00EC09D2 /* Pace Timer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pace Timer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB8A0EC28068CD100EC09D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BB8A0F228068CD100EC09D2 /* Pace Timer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pace Timer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB8A0F728068CD100EC09D2 /* Pace_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace_TimerApp.swift; sourceTree = "<group>"; };
+		5BB8A0F928068CD100EC09D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BB8A0FB28068CD100EC09D2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5BB8A0FD28068CD100EC09D2 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		5BB8A0FF28068CD100EC09D2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		5BB8A10128068CD400EC09D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BB8A10428068CD400EC09D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BB8A10628068CD400EC09D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB8A10728068CD400EC09D2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5BB8A10C28068CD400EC09D2 /* Pace TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pace TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB8A11028068CD400EC09D2 /* Pace_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace_TimerTests.swift; sourceTree = "<group>"; };
+		5BB8A11628068CD400EC09D2 /* Pace TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pace TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB8A11A28068CD400EC09D2 /* Pace_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace_TimerUITests.swift; sourceTree = "<group>"; };
+		5BB8A11C28068CD400EC09D2 /* Pace_TimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace_TimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB8A0EF28068CD100EC09D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB8A10928068CD400EC09D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB8A11328068CD400EC09D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB8A0DC28068CCD00EC09D2 = {
+			isa = PBXGroup;
+			children = (
+				5BB8A0EB28068CCD00EC09D2 /* Pace Timer WatchKit App */,
+				5BB8A0F628068CD100EC09D2 /* Pace Timer WatchKit Extension */,
+				5BB8A10F28068CD400EC09D2 /* Pace TimerTests */,
+				5BB8A11928068CD400EC09D2 /* Pace TimerUITests */,
+				5BB8A0E428068CCD00EC09D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB8A0E428068CCD00EC09D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB8A0E328068CCD00EC09D2 /* Pace Timer.app */,
+				5BB8A0E728068CCD00EC09D2 /* Pace Timer WatchKit App.app */,
+				5BB8A0F228068CD100EC09D2 /* Pace Timer WatchKit Extension.appex */,
+				5BB8A10C28068CD400EC09D2 /* Pace TimerTests.xctest */,
+				5BB8A11628068CD400EC09D2 /* Pace TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB8A0EB28068CCD00EC09D2 /* Pace Timer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5BB8A0EC28068CD100EC09D2 /* Assets.xcassets */,
+			);
+			path = "Pace Timer WatchKit App";
+			sourceTree = "<group>";
+		};
+		5BB8A0F628068CD100EC09D2 /* Pace Timer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5BB8A0F728068CD100EC09D2 /* Pace_TimerApp.swift */,
+				5BB8A0F928068CD100EC09D2 /* ContentView.swift */,
+				5BB8A0FB28068CD100EC09D2 /* NotificationController.swift */,
+				5BB8A0FD28068CD100EC09D2 /* NotificationView.swift */,
+				5BB8A0FF28068CD100EC09D2 /* ComplicationController.swift */,
+				5BB8A10128068CD400EC09D2 /* Assets.xcassets */,
+				5BB8A10628068CD400EC09D2 /* Info.plist */,
+				5BB8A10728068CD400EC09D2 /* PushNotificationPayload.apns */,
+				5BB8A10328068CD400EC09D2 /* Preview Content */,
+			);
+			path = "Pace Timer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5BB8A10328068CD400EC09D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5BB8A10428068CD400EC09D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BB8A10F28068CD400EC09D2 /* Pace TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BB8A11028068CD400EC09D2 /* Pace_TimerTests.swift */,
+			);
+			path = "Pace TimerTests";
+			sourceTree = "<group>";
+		};
+		5BB8A11928068CD400EC09D2 /* Pace TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BB8A11A28068CD400EC09D2 /* Pace_TimerUITests.swift */,
+				5BB8A11C28068CD400EC09D2 /* Pace_TimerUITestsLaunchTests.swift */,
+			);
+			path = "Pace TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB8A0E228068CCD00EC09D2 /* Pace Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB8A12828068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace Timer" */;
+			buildPhases = (
+				5BB8A0E128068CCD00EC09D2 /* Resources */,
+				5BB8A12728068CD400EC09D2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB8A0EA28068CCD00EC09D2 /* PBXTargetDependency */,
+			);
+			name = "Pace Timer";
+			productName = "Pace Timer";
+			productReference = 5BB8A0E328068CCD00EC09D2 /* Pace Timer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5BB8A0E628068CCD00EC09D2 /* Pace Timer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB8A12428068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace Timer WatchKit App" */;
+			buildPhases = (
+				5BB8A0E528068CCD00EC09D2 /* Resources */,
+				5BB8A12328068CD400EC09D2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB8A0F528068CD100EC09D2 /* PBXTargetDependency */,
+			);
+			name = "Pace Timer WatchKit App";
+			productName = "Pace Timer WatchKit App";
+			productReference = 5BB8A0E728068CCD00EC09D2 /* Pace Timer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5BB8A0F128068CD100EC09D2 /* Pace Timer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB8A12028068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace Timer WatchKit Extension" */;
+			buildPhases = (
+				5BB8A0EE28068CD100EC09D2 /* Sources */,
+				5BB8A0EF28068CD100EC09D2 /* Frameworks */,
+				5BB8A0F028068CD100EC09D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pace Timer WatchKit Extension";
+			productName = "Pace Timer WatchKit Extension";
+			productReference = 5BB8A0F228068CD100EC09D2 /* Pace Timer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		5BB8A10B28068CD400EC09D2 /* Pace TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB8A12B28068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace TimerTests" */;
+			buildPhases = (
+				5BB8A10828068CD400EC09D2 /* Sources */,
+				5BB8A10928068CD400EC09D2 /* Frameworks */,
+				5BB8A10A28068CD400EC09D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB8A10E28068CD400EC09D2 /* PBXTargetDependency */,
+			);
+			name = "Pace TimerTests";
+			productName = "Pace TimerTests";
+			productReference = 5BB8A10C28068CD400EC09D2 /* Pace TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BB8A11528068CD400EC09D2 /* Pace TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB8A12E28068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace TimerUITests" */;
+			buildPhases = (
+				5BB8A11228068CD400EC09D2 /* Sources */,
+				5BB8A11328068CD400EC09D2 /* Frameworks */,
+				5BB8A11428068CD400EC09D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB8A11828068CD400EC09D2 /* PBXTargetDependency */,
+			);
+			name = "Pace TimerUITests";
+			productName = "Pace TimerUITests";
+			productReference = 5BB8A11628068CD400EC09D2 /* Pace TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB8A0DD28068CCD00EC09D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5BB8A0E228068CCD00EC09D2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					5BB8A0E628068CCD00EC09D2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					5BB8A0F128068CD100EC09D2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					5BB8A10B28068CD400EC09D2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5BB8A0F128068CD100EC09D2;
+					};
+					5BB8A11528068CD400EC09D2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5BB8A0E628068CCD00EC09D2;
+					};
+				};
+			};
+			buildConfigurationList = 5BB8A0E028068CCD00EC09D2 /* Build configuration list for PBXProject "Pace Timer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BB8A0DC28068CCD00EC09D2;
+			productRefGroup = 5BB8A0E428068CCD00EC09D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB8A0E228068CCD00EC09D2 /* Pace Timer */,
+				5BB8A0E628068CCD00EC09D2 /* Pace Timer WatchKit App */,
+				5BB8A0F128068CD100EC09D2 /* Pace Timer WatchKit Extension */,
+				5BB8A10B28068CD400EC09D2 /* Pace TimerTests */,
+				5BB8A11528068CD400EC09D2 /* Pace TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BB8A0E128068CCD00EC09D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB8A0E528068CCD00EC09D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB8A0ED28068CD100EC09D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB8A0F028068CD100EC09D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB8A10528068CD400EC09D2 /* Preview Assets.xcassets in Resources */,
+				5BB8A10228068CD400EC09D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB8A10A28068CD400EC09D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB8A11428068CD400EC09D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB8A0EE28068CD100EC09D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB8A0FC28068CD100EC09D2 /* NotificationController.swift in Sources */,
+				5BB8A0FA28068CD100EC09D2 /* ContentView.swift in Sources */,
+				5BB8A10028068CD100EC09D2 /* ComplicationController.swift in Sources */,
+				5BB8A0F828068CD100EC09D2 /* Pace_TimerApp.swift in Sources */,
+				5BB8A0FE28068CD100EC09D2 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB8A10828068CD400EC09D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB8A11128068CD400EC09D2 /* Pace_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB8A11228068CD400EC09D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB8A11B28068CD400EC09D2 /* Pace_TimerUITests.swift in Sources */,
+				5BB8A11D28068CD400EC09D2 /* Pace_TimerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB8A0EA28068CCD00EC09D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB8A0E628068CCD00EC09D2 /* Pace Timer WatchKit App */;
+			targetProxy = 5BB8A0E928068CCD00EC09D2 /* PBXContainerItemProxy */;
+		};
+		5BB8A0F528068CD100EC09D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB8A0F128068CD100EC09D2 /* Pace Timer WatchKit Extension */;
+			targetProxy = 5BB8A0F428068CD100EC09D2 /* PBXContainerItemProxy */;
+		};
+		5BB8A10E28068CD400EC09D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB8A0F128068CD100EC09D2 /* Pace Timer WatchKit Extension */;
+			targetProxy = 5BB8A10D28068CD400EC09D2 /* PBXContainerItemProxy */;
+		};
+		5BB8A11828068CD400EC09D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB8A0E628068CCD00EC09D2 /* Pace Timer WatchKit App */;
+			targetProxy = 5BB8A11728068CD400EC09D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BB8A11E28068CD400EC09D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BB8A11F28068CD400EC09D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB8A12128068CD400EC09D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pace Timer WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pace Timer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pace Timer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-Timer.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		5BB8A12228068CD400EC09D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pace Timer WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pace Timer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pace Timer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-Timer.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		5BB8A12528068CD400EC09D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Pace_Timer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pace Timer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-Timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		5BB8A12628068CD400EC09D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Pace_Timer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pace Timer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-Timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		5BB8A12928068CD400EC09D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5BB8A12A28068CD400EC09D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5BB8A12C28068CD400EC09D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pace Timer WatchKit Extension.appex/Pace Timer WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		5BB8A12D28068CD400EC09D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pace Timer WatchKit Extension.appex/Pace Timer WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		5BB8A12F28068CD400EC09D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Pace Timer WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		5BB8A13028068CD400EC09D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marcosmaciel.Pace-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Pace Timer WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB8A0E028068CCD00EC09D2 /* Build configuration list for PBXProject "Pace Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB8A11E28068CD400EC09D2 /* Debug */,
+				5BB8A11F28068CD400EC09D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB8A12028068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace Timer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB8A12128068CD400EC09D2 /* Debug */,
+				5BB8A12228068CD400EC09D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB8A12428068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace Timer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB8A12528068CD400EC09D2 /* Debug */,
+				5BB8A12628068CD400EC09D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB8A12828068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB8A12928068CD400EC09D2 /* Debug */,
+				5BB8A12A28068CD400EC09D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB8A12B28068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB8A12C28068CD400EC09D2 /* Debug */,
+				5BB8A12D28068CD400EC09D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB8A12E28068CD400EC09D2 /* Build configuration list for PBXNativeTarget "Pace TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB8A12F28068CD400EC09D2 /* Debug */,
+				5BB8A13028068CD400EC09D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BB8A0DD28068CCD00EC09D2 /* Project object */;
+}
