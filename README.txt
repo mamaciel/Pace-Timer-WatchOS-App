@@ -1,0 +1,4 @@
+I had an idea to build an app that can help runners better pace themselves consistently. The app's function is to let the user pick an interval of 
+seconds and then a timer will start. Let's say the user picks 30s intervals, then every 30s the Apple Watch will vibrate and the timer will reset back 
+to 0. The goal is for when runners are trying to achieve consistent paces, such as 60s per 400m lap, the watch can vibrate every 60s and they can get a 
+notion for whether or not they are on pace to run their final race time goal!
