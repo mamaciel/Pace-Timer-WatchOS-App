@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var timerScreenShown = false
-    @State var timeVal = 10
+    @State var timeVal = 5
     
     var body: some View {
         VStack{
@@ -19,7 +19,7 @@ struct ContentView: View {
             Picker(
                 selection: $timeVal,
                 label: Text("")){
-                    ForEach(10...120, id: \.self) {
+                    ForEach(5...120, id: \.self) {
                         Text("\($0)")
                     }
                 }
@@ -32,7 +32,7 @@ struct ContentView: View {
 
 struct SecondView: View{
     @Binding var timerScreenShown:Bool
-    @State var timeVal = 10
+    @State var timeVal = 5
     @State var startVal = 0
     
     var body: some View {
